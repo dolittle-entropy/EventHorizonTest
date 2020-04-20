@@ -1,0 +1,18 @@
+{
+    "445f8ea8-1a6f-40d7-b2fc-796dba92dc44": [
+        {
+            "scope": "28cd2d41-7794-42a4-a919-b4f83bd79189",
+            "microservice": "4e146c23-3b32-4eae-90bd-068f37844dc0",
+            "tenant": "445f8ea8-1a6f-40d7-b2fc-796dba92dc44",
+            "stream": "db7acf1e-a640-41f3-934f-f2f188e1b1e9",
+            "partition": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "scope": "28cd2d41-7794-42a4-a919-b4f83bd79189",
+            "microservice": "f39b1f61-d360-4675-b859-53c05c87c0e6",
+            "tenant": "445f8ea8-1a6f-40d7-b2fc-796dba92dc44",
+            "stream": "cba00d22-3c04-4d42-a738-9d20de31f7cc",
+            "partition": "00000000-0000-0000-0000-000000000000"
+        }
+    ]
+}

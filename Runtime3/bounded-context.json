@@ -1,0 +1,19 @@
+{
+    "application": "c6912245-892f-4eef-9c3e-7fd410268c40",
+    "boundedContext": "2596d9c5-01e7-4b59-af51-30790ac5c014",
+    "boundedContextName": "Microservice3",
+    "resources": {
+      "readModels": {
+        "production": "MongoDB",
+        "development": "MongoDB"
+      },
+      "eventStore": {
+        "production": "MongoDB",
+        "development": "MongoDB"
+      }
+    },
+      "core": {
+      "language": "csharp"
+    },
+    "interaction": []
+  }
