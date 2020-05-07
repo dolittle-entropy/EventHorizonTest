@@ -8,7 +8,7 @@ using Dolittle.Events.Handling;
 using Dolittle.Events.Handling.EventHorizon;
 using Dolittle.Logging;
 
-namespace Head1
+namespace Head1.Feature1
 {
     [EventHandler("93d43c62-cfc0-469d-973f-8f05781e4718"), Scope("a1ddc2b3-45e3-4161-bbef-3dcb3d212337")]
     public class MyExternalEventHandler : ICanHandleExternalEvents

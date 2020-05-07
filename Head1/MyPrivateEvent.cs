@@ -3,7 +3,7 @@
 
 using Dolittle.Events;
 
-namespace Head1
+namespace Head1.Feature1
 {
     public class MyPrivateEvent : IEvent
     {

@@ -4,7 +4,7 @@
 using Dolittle.Commands.Handling;
 using Dolittle.Domain;
 
-namespace Head1
+namespace Head1.Feature1
 {
     public class MyCommandHandler : ICanHandleCommands
     {

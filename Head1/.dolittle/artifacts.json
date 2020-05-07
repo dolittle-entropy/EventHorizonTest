@@ -1,0 +1,32 @@
+{
+  "61c21d18-2f54-4dbb-90c1-234297016e08": {
+    "commands": {
+      "08585b3b-9f78-4efa-bf0d-1f7750ee2948": {
+        "generation": 1,
+        "type": "Head1.Feature1.MyCommand, Head1"
+      }
+    },
+    "events": {
+      "bc26f986-5515-4506-9944-cd7e93bec7fe": {
+        "generation": 1,
+        "type": "Head1.Feature1.Head1Event, Head1"
+      },
+      "a4eed54e-2449-4164-a36e-8df80dcf8053": {
+        "generation": 1,
+        "type": "Head1.Feature1.Head2Event, Head1"
+      },
+      "501997dc-21a3-4f0e-8973-21245aa70606": {
+        "generation": 1,
+        "type": "Head1.Feature1.MyPrivateEvent, Head1"
+      }
+    },
+    "eventSources": {
+      "a014458e-1f0a-4fba-96b0-71762b75493e": {
+        "generation": 1,
+        "type": "Head1.Feature1.MyAggregate, Head1"
+      }
+    },
+    "readModels": {},
+    "queries": {}
+  }
+}

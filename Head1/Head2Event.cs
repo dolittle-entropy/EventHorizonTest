@@ -4,7 +4,7 @@
 using Dolittle.Artifacts;
 using Dolittle.Events;
 
-namespace Head1
+namespace Head1.Feature1
 {
     [Artifact("a4eed54e-2449-4164-a36e-8df80dcf8053")]
     public class Head2Event : IPublicEvent

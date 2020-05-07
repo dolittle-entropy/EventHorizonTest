@@ -14,7 +14,7 @@ using Dolittle.Tenancy;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Head1
+namespace Head1.Feature1
 {
     static class Program
     {
@@ -31,12 +31,6 @@ namespace Head1
             var commandContextManager = container.Get<ICommandContextManager>();
             var executionContextManager = container.Get<IExecutionContextManager>();
             var commandCoordinator = container.Get<ICommandCoordinator>();
-            var artifactTypeMap = container.Get<IArtifactTypeMap>();
-            artifactTypeMap.Register(new Artifact(Guid.Parse("bc26f986-5515-4506-9944-cd7e93bec7fe"), 1), typeof(Head1Event));
-            artifactTypeMap.Register(new Artifact(Guid.Parse("a4eed54e-2449-4164-a36e-8df80dcf8053"), 1), typeof(Head2Event));
-            artifactTypeMap.Register(new Artifact(Guid.Parse("2626352e-41d2-4d40-b3dd-e8efdee9bcac"), 1), typeof(MyPrivateEvent));
-            artifactTypeMap.Register(new Artifact(Guid.Parse("7bda4646-4f21-4538-8b5e-ae4d71b4005f"), 1), typeof(MyAggregate));
-            artifactTypeMap.Register(new Artifact(Guid.Parse("522c007d-9498-4aa2-a9ee-f43e8d5aec2a"), 1), typeof(MyCommand));
 
             executionContextManager.CurrentFor(TenantId.Development);
 
