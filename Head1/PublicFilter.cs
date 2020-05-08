@@ -22,7 +22,7 @@ namespace Head1.Feature1
 
         public Task<PublicFilterResult> Filter(IPublicEvent @event, EventContext context)
         {
-            return Task.FromResult(new PublicFilterResult(true, Guid.NewGuid()));
+            return Task.FromResult(new PublicFilterResult(true, Guid.Empty));
         }
     }
 }

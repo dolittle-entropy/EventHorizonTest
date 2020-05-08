@@ -3,7 +3,7 @@
 
 using Dolittle.Commands;
 
-namespace Head2
+namespace Head2.Feature1
 {
     public class MyCommand : ICommand
     {

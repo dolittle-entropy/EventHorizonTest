@@ -6,7 +6,6 @@ using Dolittle.Events;
 
 namespace Head1.Feature1
 {
-    [Artifact("bc26f986-5515-4506-9944-cd7e93bec7fe")]
     public class Head1Event : IPublicEvent
     {
         public Head1Event(int myInteger, string myString)

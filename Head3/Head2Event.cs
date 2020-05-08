@@ -3,12 +3,11 @@
 
 using Dolittle.Artifacts;
 using Dolittle.Events;
-using Dolittle.Events.EventHorizon;
 
-namespace Head3
+namespace Head3.Feature1
 {
     [Artifact("a4eed54e-2449-4164-a36e-8df80dcf8053")]
-    public class Head2Event : IExternalEvent
+    public class Head2Event : IPublicEvent
     {
         public Head2Event(string something)
         {

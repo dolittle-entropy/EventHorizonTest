@@ -15,7 +15,7 @@
         <DolittleNamespaceSegmentsToStrip></DolittleNamespaceSegmentsToStrip>
         
         <!-- Whether or not the build tool should generate proxies -->
-        <DolittleGenerateProxies>True</DolittleGenerateProxies>
+        <DolittleGenerateProxies>False</DolittleGenerateProxies>
         
         <!-- The relative path to put proxies if generated-->
         <DolittleProxiesBasePath>../Web/Features</DolittleProxiesBasePath>
@@ -29,7 +29,6 @@
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Dolittle.Hosting.Microsoft" Version="5.0.0-alpha*" />
-
     
         <PackageReference Include="Dolittle.Build.MSBuild" Version="5.0.0-alpha*" />   
         <PackageReference Include="Dolittle.SDK.Build" Version="5.0.0-alpha*" />   

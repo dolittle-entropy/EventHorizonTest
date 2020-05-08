@@ -6,7 +6,7 @@ using Dolittle.Events;
 using Dolittle.Events.Handling;
 using Dolittle.Logging;
 
-namespace Head2
+namespace Head2.Feature1
 {
     [EventHandler("38eeb77f-90ca-405c-a733-3b0e6f0b0ef3")]
     public class MyPrivateEventHandler : ICanHandleEvents

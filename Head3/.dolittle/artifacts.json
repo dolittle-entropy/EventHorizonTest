@@ -1,0 +1,18 @@
+{
+  "4aa47816-276c-43e2-845c-3abe5c454886": {
+    "commands": {},
+    "events": {
+      "bc26f986-5515-4506-9944-cd7e93bec7fe": {
+        "generation": 1,
+        "type": "Head3.Feature1.Head1Event, Head3"
+      },
+      "a4eed54e-2449-4164-a36e-8df80dcf8053": {
+        "generation": 1,
+        "type": "Head3.Feature1.Head2Event, Head3"
+      }
+    },
+    "eventSources": {},
+    "readModels": {},
+    "queries": {}
+  }
+}

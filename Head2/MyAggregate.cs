@@ -4,7 +4,7 @@
 using Dolittle.Domain;
 using Dolittle.Events;
 
-namespace Head2
+namespace Head2.Feature1
 {
     public class MyAggregate : AggregateRoot
     {
