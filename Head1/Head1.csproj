@@ -23,15 +23,12 @@
   
   <ItemGroup>
     <Content Include=".dolittle\**\*" CopyToPublishDirectory="Always"/>
-  </ItemGroup>
-    <ItemGroup>
-        <ProjectReference Include="../../../Runtime/DotNET.SDK/Source/AggregatedPackage/SDK.csproj"/>
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Dolittle.Hosting.Microsoft" Version="5.0.0-alpha*" />
-    
         <PackageReference Include="Dolittle.Build.MSBuild" Version="5.0.0-alpha*" />   
-        <PackageReference Include="Dolittle.SDK.Build" Version="5.0.0-alpha*" />   
+        <PackageReference Include="Dolittle.SDK" Version="5.0.0-alpha*" />
+        <PackageReference Include="Dolittle.SDK.Build" Version="5.0.0-alpha*" />
 
     </ItemGroup>
 
