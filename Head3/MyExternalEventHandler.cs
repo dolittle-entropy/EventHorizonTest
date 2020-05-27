@@ -22,13 +22,17 @@ namespace Head3.Feature1
 
         public async Task Handle(Head1Event @event, EventContext eventContext)
         {
+            var externalEventContext = eventContext as ExternalEventContext;
             _logger.Information($"Handling external event : '{@event}'");
+            _logger.Information($"External Event Log Sequence Number: {externalEventContext.ExternalEventLogSequenceNumber} Identifier: {externalEventContext.UniqueIdentifier.Value}");
             await Task.Delay(500).ConfigureAwait(false);
         }
 
         public async Task Handle(Head2Event @event, EventContext eventContext)
         {
+            var externalEventContext = eventContext as ExternalEventContext;
             _logger.Information($"Handling external event : '{@event}'");
+            _logger.Information($"External Event Log Sequence Number: {externalEventContext.ExternalEventLogSequenceNumber} Identifier: {externalEventContext.UniqueIdentifier.Value}");
             await Task.Delay(500).ConfigureAwait(false);
         }
     }
