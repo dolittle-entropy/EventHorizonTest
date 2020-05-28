@@ -25,8 +25,6 @@ namespace Head2.Feature1
         public async Task Handle(Head1Event @event, EventContext eventContext)
         {
             _logger.Information($"Handling external event : '{@event}'");
-            await Task.Delay(500).ConfigureAwait(false);
-            _coordinator.Handle(new MyCommand());
         }
     }
 }

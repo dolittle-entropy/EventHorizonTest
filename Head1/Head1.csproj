@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -25,6 +25,7 @@
     <Content Include=".dolittle\**\*" CopyToPublishDirectory="Always"/>
     </ItemGroup>
     <ItemGroup>
+        <PackageReference Include="Dolittle.AspNetCore" Version="8.0.0-rc*" />
         <PackageReference Include="Dolittle.Hosting.Microsoft" Version="5.0.0-rc*" />
         <PackageReference Include="Dolittle.Build.MSBuild" Version="5.0.0-rc*" />   
         <PackageReference Include="Dolittle.SDK" Version="5.0.0-rc*" />
