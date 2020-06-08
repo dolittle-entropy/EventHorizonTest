@@ -4,6 +4,10 @@
       "08585b3b-9f78-4efa-bf0d-1f7750ee2948": {
         "generation": 1,
         "type": "Head1.Feature1.MyCommand, Head1"
+      },
+      "cff791ae-77f3-4fac-be53-7f528a584b95": {
+        "generation": 1,
+        "type": "Head1.Feature1.MyReactionCommand, Head1"
       }
     },
     "events": {
@@ -18,6 +22,10 @@
       "501997dc-21a3-4f0e-8973-21245aa70606": {
         "generation": 1,
         "type": "Head1.Feature1.MyPrivateEvent, Head1"
+      },
+      "c93d41aa-bb9d-4e62-af70-48cb63cc06ea": {
+        "generation": 1,
+        "type": "Head1.Feature1.MyReactionEvent, Head1"
       }
     },
     "eventSources": {

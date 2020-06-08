@@ -18,5 +18,10 @@ namespace Head1.Feature1
             Apply(new MyPrivateEvent("Bla bla..."));
             Apply(new Head1Event(42, "Fourty Two"));
         }
+
+        public void DoReaction()
+        {
+            Apply(new MyReactionEvent());
+        }
     }
 }

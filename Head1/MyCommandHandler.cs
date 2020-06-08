@@ -19,5 +19,9 @@ namespace Head1.Feature1
         {
             _aggregateOf.Create().Perform(_ => _.DoStuff());
         }
+        public void Handle(MyReactionCommand command)
+        {
+            _aggregateOf.Create().Perform(_ => _.DoReaction());
+        }
     }
 }

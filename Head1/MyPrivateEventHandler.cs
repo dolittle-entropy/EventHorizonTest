@@ -24,5 +24,11 @@ namespace Head1.Feature1
             // throw new System.Exception("DIE");
             return Task.CompletedTask;
         }
+        public Task Handle(MyReactionEvent @event, EventContext eventContext)
+        {
+            _logger.Information($"Handling reaction event : '{@event}'");
+            // throw new System.Exception("DIE");
+            return Task.CompletedTask;
+        }
     }
 }
