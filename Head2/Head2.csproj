@@ -25,11 +25,11 @@
     <Content Include=".dolittle\**\*" CopyToPublishDirectory="Always"/>
   </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Dolittle.AspNetCore" Version="8.0.0-rc*" />
-        <PackageReference Include="Dolittle.Hosting.Microsoft" Version="5.0.0-rc*" />
-        <PackageReference Include="Dolittle.Build.MSBuild" Version="5.0.0-rc*" />   
-        <PackageReference Include="Dolittle.SDK" Version="5.0.0-rc*" />
-        <PackageReference Include="Dolittle.SDK.Build" Version="5.0.0-rc*" />
+        <PackageReference Include="Dolittle.AspNetCore" Version="8." />
+        <PackageReference Include="Dolittle.Hosting.Microsoft" Version="5.*" />
+        <PackageReference Include="Dolittle.Build.MSBuild" Version="5.*" />   
+        <PackageReference Include="Dolittle.SDK" Version="5.*" />
+        <PackageReference Include="Dolittle.SDK.Build" Version="5.*" />
     </ItemGroup>
 
 </Project>
